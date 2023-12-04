@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-image: url('library.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width:100%;
+    color:white;
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    background-color: black;
+    border: 2px solid rgba(255, 255, 255, 0.468);
+    border-radius: 5px;
+    width:19%;
+    text-align: center;
+    height: 35px;
+    margin-bottom: 20px;
+}
+.main{
+    height: 180px;
+    width:400px;
+    border:2px solid white;
+    background-color: white;
+    color:black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.list-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 105px;
+    text-align: center;
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.author{
+    letter-spacing: 3px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color: red;
+    margin-top: 10px;
+}
+.button{
+    
+    width: 60px;
+  height: 27px;
+  background-color: black;
+  color: white;
+  border-radius: 3px;
+  border: 0px ;
+  cursor: pointer;
+}
+.button:active{
+    background-color: lightblue;
+}
+.button-div{
+    text-align: center;
+}
+.hidden{
+    display :none;
+}
+.show{
+    display:block;
+}
